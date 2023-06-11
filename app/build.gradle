@@ -6,8 +6,11 @@ plugins {
 android {
     namespace 'com.example.githubclient'
     compileSdk 33
+    buildFeatures {
+        viewBinding true
+    }
 
-    defaultConfig {
+        defaultConfig {
         applicationId "com.example.githubclient"
         minSdk 24
         targetSdk 33
