@@ -7,9 +7,6 @@ import com.example.githubclient.MainPresenter
 import com.example.githubclient.MainView
 import com.example.githubclient.databinding.ActivityMainBinding
 
-val index_bth1 = 0
-val index_bth2 = 1
-val index_bth3 = 2
 
 class MainActivity : AppCompatActivity(), MainView {
     private var vb: ActivityMainBinding? = null

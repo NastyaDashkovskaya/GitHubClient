@@ -1,9 +1,9 @@
 package com.example.githubclient
 
-import com.gb.poplib.githubclient.index_bth1
-import com.gb.poplib.githubclient.index_bth2
-import com.gb.poplib.githubclient.index_bth3
 
+val index_bth1 = 0
+val index_bth2 = 1
+val index_bth3 = 2
 class MainPresenter(val view : MainView) {
         val model = CountersModel()
 
